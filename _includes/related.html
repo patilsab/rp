@@ -21,7 +21,7 @@
       <div class="card border-0 mb-4 box-shadow h-xl-400">
         <a href="{{site.baseurl}}{{post.url}}">
         <div
-          style="background-image: url({{post.image}}); height: 150px; background-size: cover; background-repeat: no-repeat;"
+          style="background-image: url({% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}); height: 150px; background-size: cover; background-repeat: no-repeat;"
         ></div></a>
         <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
           <h2 class="h4 font-weight-bold">
@@ -58,7 +58,6 @@
           {% assign image_name = post.image | split: "." %}
           <a href="{{site.baseurl}}{{post.url}}">
       <picture>
-        <source data-srcset="{{ image_name.first }}.webp" type="image/webp" />
         <img height="90" style="max-width:none;" class="lazy" data-src="{% if post.image contains "://" %}{{
           post.image
         }}{% else %}{{ post.image }}{% endif %}" alt="{{ post.title }}">
@@ -105,7 +104,7 @@
       <div class="card border-0 mb-4 box-shadow h-xl-400">
         <a href="{{site.baseurl}}{{post.url}}">
         <div
-          style="background-image: url({{post.image}}); height: 150px; background-size: cover; background-repeat: no-repeat;"
+          style="background-image: url({% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}); height: 150px; background-size: cover; background-repeat: no-repeat;"
         ></div></a>
         <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
           <h2 class="h4 font-weight-bold">
@@ -142,7 +141,6 @@
           {% assign image_name = post.image | split: "." %}
           <a href="{{site.baseurl}}{{post.url}}">
       <picture>
-        <source data-srcset="{{ image_name.first }}.webp" type="image/webp" />
         <img height="90" style="max-width:none;" class="lazy" data-src="{% if post.image contains "://" %}{{
           post.image
         }}{% else %}{{ post.image }}{% endif %}" alt="{{ post.title }}">
