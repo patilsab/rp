@@ -4,7 +4,7 @@ title:  "Digital Ocean Cloud VPS Hosting Review"
 categories: [ Web Hosting ]
 author: Rupesh
 image: assets/images/digitalocean-homepage.png
-rating: 4
+rating: 4.5
 ---
 
 DigitalOcean is a cloud hosting provider that offers virtual Linux servers called “droplets” with SSH access and solid-state drives. They have datacenters around the world and their web hosting plans are ideal for developers.
