@@ -26,6 +26,7 @@ post_class: post-template
                                       <div class="mainheading"> <h1 class="posttitle">{{ page.title }}</h1>
 	
 	<!-- Author Box -->
+		{% assign author = site.authors[page.author] %}
                 {% if page.author %}
                 <div class="row post-top-meta">
                     <div class="text-center text-md-left mb-4 mb-md-0">
