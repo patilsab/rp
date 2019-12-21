@@ -5,6 +5,7 @@ categories: [ Web Hosting ]
 author: Rupesh
 image: assets/images/digitalocean-homepage.png
 featured: true
+hidden: true
 rating: 4.5
 ---
 
