@@ -4,6 +4,7 @@ title:  "Digital Ocean Cloud VPS Hosting Review"
 categories: [ Web Hosting ]
 author: Rupesh
 image: assets/images/digitalocean-homepage.png
+featured: true
 rating: 4.5
 ---
 
