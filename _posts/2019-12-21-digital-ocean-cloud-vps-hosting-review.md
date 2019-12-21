@@ -20,3 +20,7 @@ On many web hosts, you have to choose a higher tier plan just to get root access
 - CPUs
 - Disk space (all SSD)
 - Bandwidth.
+
+<p>DigitalOcean calls its virtual machines “droplets .” They have <strong>two flavors of droplets</strong>: Standard and CPU Optimized. </p>
+
+<p class="has-text-align-center"><a class="btn btn-outline-success" href="https://m.do.co/c/166cea16389d">Visit Digital Ocean</a></p>
