@@ -5,7 +5,7 @@ description: "Best site for real and unbiased reviews. Save in tunes of lakhs ea
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: '/'
-google_analytics: 'UA-46278016-1'
+google_analytics: 'UA-154910871-1'
 disqus: 'reviewsegg'
 mailchimp-list: 'https://reviewsegg.us4.list-manage.com/subscribe/post?u=c329002f8b8f18f54b9318698&amp;id=5ab53ee6a5'
 include: ["_pages"]
