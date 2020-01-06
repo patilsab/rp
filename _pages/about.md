@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mediumish Template for Jekyll
+title: About Reviews Egg
 permalink: /about
 comments: true
 ---
